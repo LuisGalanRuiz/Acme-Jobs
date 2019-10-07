@@ -29,3 +29,5 @@ The following tools and components are required:
 The contributors to this project are:
 	Jose Manuel Villegas García, josvilgar1@alum.us.es
   Luis Galan Ruiz, luigalrui@alum.us.es
+  Carlos Gámez Ramírez, cargamram@alum.us.es
+
