@@ -23,7 +23,7 @@
 			<acme:menu-suboption code="master.menu.anonymous.carlos-favourite-link" action="https://www.informatica.us.es/"/>
 			<acme:menu-suboption code="master.menu.anonymous.jose-favourite-link" action="http://www.flamencoheeren.com"/>
 			<acme:menu-suboption code="master.menu.anonymous.luis-favourite-link" action="https://cat-bounce.com/"/>
-			<acme:menu-suboption code="master.menu.anonymous.andres-favourite-link" action="https://cat-bounce.com/"/>
+			<acme:menu-suboption code="master.menu.anonymous.andres-favourite-link" action="https://guciek.github.io/web_mandelbrot.html#-0.5;0;2;1000"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
