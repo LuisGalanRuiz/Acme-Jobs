@@ -96,3 +96,5 @@ master.license.text = \
 	lenguage.  AdemÃ¡s, almacenamos un Ã­tem llamado "returnStack" en el almacenamiento \
 	local de su navegador para saber dÃ³nde tienen que ir algunos botones.
 	
+master.menu.anonymous.shout.list=Lista de gritos
+master.menu.anonymous.shout.form=Crear Grito

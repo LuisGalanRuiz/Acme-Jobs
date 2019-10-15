@@ -95,3 +95,6 @@ master.license.text = \
 	automatically for a maximum of 31 days, and "language" to store your language \
 	preferences. Additionally, we store an item called "returnStack" in your browser's \
 	local storage to keep track of the document to which some buttons must return.
+
+master.menu.anonymous.shout.list=Shout list
+master.menu.anonymous.shout.form=Create Shout
