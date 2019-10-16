@@ -60,6 +60,11 @@ master.menu.user-account.become-provider = Become a provider
 master.menu.user-account.consumer = Consumer data
 master.menu.user-account.become-consumer = Become a consumer
 
+# master.menu.anonymous.shout ####################################################
+
+master.menu.anonymous.shout.list = Shout list
+master.menu.anonymous.shout.form = Create Shout
+
 # master.footer ###############################################################
 
 master.footer.title.about = About us
