@@ -14,7 +14,7 @@ master.banner.background = #BDD7EE
 
 ï»¿# master.welcome ##############################################################
 
-master.welcome.title = Â¡Bienvenidos!
+master.welcome.title = ¡Bienvenidos!
 master.welcome.text = \
 	Bienvenidos a Acme Jobs!  Nunca antes ha sido tan sencillo desarrollar un \
 	proyecto y hacerlo funcionar.
@@ -28,7 +28,7 @@ master.menu.sign-out = Salir
 
 # master.menu.anonymous #######################################################
 
-master.menu.anonymous = AnÃ³nimo
+master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = Enlace favorito
 master.menu.anonymous.carlos-favourite-link = Enlace de Carlos
 master.menu.anonymous.jose-favourite-link = Enlace de Jose
@@ -69,8 +69,8 @@ master.footer.title.social = Social
 master.footer.label.linked-in = Linked-In
 master.footer.label.twitter = Twitter
 master.footer.title.languages = Lenguages
-master.footer.label.english = InglÃ©s
-master.footer.label.spanish = EspaÃ±ol
+master.footer.label.english = Inglés
+master.footer.label.spanish = Español
 
 # master.company ##############################################################
 
