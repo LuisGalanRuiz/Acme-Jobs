@@ -10,10 +10,12 @@
 
 anonymous.galanbulletin.list.label.moment=Moment
 anonymous.galanbulletin.list.label.author=Author
+anonymous.galanbulletin.list.label.description=Description
 anonymous.galanbulletin.list.label.text=Text
 
 anonymous.galanbulletin.form.label.author=Author
+anonymous.galanbulletin.form.label.description=Description
 anonymous.galanbulletin.form.label.text=Text
 
-anonymous.galanbulletin.form.button.create=Shout!
+anonymous.galanbulletin.form.button.create=Create your Galan Bulletin
 anonymous.galanbulletin.form.button.return=Return

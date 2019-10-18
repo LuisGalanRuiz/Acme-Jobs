@@ -317,15 +317,16 @@ Shout
     <id>UMLClass</id>
     <coordinates>
       <x>210</x>
-      <y>364</y>
+      <y>350</y>
       <w>217</w>
-      <h>70</h>
+      <h>84</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 GalanBulletin
 --
 + moment: Date{temporal(TIMESTAMP), Past}
 + author: String{NotBlank}
++ description: String{NotBlank}
 + text: String{NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>

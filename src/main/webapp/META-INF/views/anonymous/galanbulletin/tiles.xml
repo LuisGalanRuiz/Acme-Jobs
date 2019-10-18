@@ -19,7 +19,7 @@
 <tiles-definitions>
 
 	<definition name="anonymous/galanbulletin/list" extends="master">
-		<put-attribute name="body" type="template" value="../anonymous/shout/list.jsp" />
+		<put-attribute name="body" type="template" value="../anonymous/galanbulletin/list.jsp" />
 	</definition>
 	
 	<definition name="anonymous/galanbulletin/form" extends="master">

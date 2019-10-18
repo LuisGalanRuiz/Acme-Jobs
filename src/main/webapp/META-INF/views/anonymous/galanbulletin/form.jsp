@@ -1,6 +1,5 @@
-
 <%--
-- list.jsp
+- form.jsp
 -
 - Copyright (c) 2019 Rafael Corchuelo.
 -
@@ -16,11 +15,11 @@
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
-<acme:list readonly="true">
-	<acme:list-column code="anonymous.galanbulletin.list.label.moment" path="moment" width="15%"/>
-	<acme:list-column code="anonymous.galanbulletin.list.label.author" path="author" width="15%"/>
-	<acme:list-column code="anonymous.galanbulletin.list.label.description" path="description" width="15%"/>	
-	<acme:list-column code="anonymous.galanbulletin.list.label.text" path="text" width="55%"/>		
-</acme:list>
+<acme:form>
+	<acme:form-textbox code="anonymous.galanbulletin.form.label.author" path="author" />
+	<acme:form-textbox code="anonymous.galanbulletin.form.label.description" path="description" />
+	<acme:form-textarea code="anonymous.galanbulletin.form.label.text" path="text" />
 
-
+	<acme:form-submit code="anonymous.galanbulletin.form.button.create" action="/anonymous/galanbulletin/create"/>		
+  	<acme:form-return code="anonymous.galanbulletin.form.button.return"/>
+</acme:form>

@@ -7,22 +7,26 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import acme.entities.galanbulletins.GalanBulletin;
+import acme.entities.galanbulletins.Galanbulletin;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Anonymous;
 
 @Controller
 @RequestMapping("/anonymous/galanbulletin/")
-public class AnonymousGalanBulletinController extends AbstractController<Anonymous, GalanBulletin> {
+public class AnonymousGalanbulletinController extends AbstractController<Anonymous, Galanbulletin> {
 
 	@Autowired
-	private AnonymousGalanBulletinListService listService;
+	private AnonymousGalanbulletinListService	listService;
+
+	@Autowired
+	private AnonymousGalanbulletinCreateService	createService;
 
 
 	@PostConstruct
 	private void initialize() {
 		super.addBasicCommand(BasicCommand.LIST, this.listService);
+		super.addBasicCommand(BasicCommand.CREATE, this.createService);
 	}
 
 }

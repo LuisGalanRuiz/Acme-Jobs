@@ -39,21 +39,24 @@
 	
 	<!-- GalanBulletins -->
 	
-	<bean id="galanbulletin01" class="acme.entities.galanbulletins.GalanBulletin">
+	<bean id="galanbulletin01" class="acme.entities.galanbulletins.Galanbulletin">
 		<property name="author" value="Luis Galan" />
-		<property name="text" value="First!" />
+		<property name="description" value="First!" />
+		<property name="text" value="First Bulletin!" />
 		<property name="moment" value="2019/08/09 10:00" />
 	</bean>
 	
-	<bean id="galanbulletin02" class="acme.entities.galanbulletins.GalanBulletin">
+	<bean id="galanbulletin02" class="acme.entities.galanbulletins.Galanbulletin">
 		<property name="author" value="Alberto Galan" />
-		<property name="text" value="Second!" />
+		<property name="description" value="Second!" />
+		<property name="text" value="Second Bulletin!" />
 		<property name="moment" value="2019/08/09 15:00" />
 	</bean>
 	
-	<bean id="galanbulletin03" class="acme.entities.galanbulletins.GalanBulletin">
+	<bean id="galanbulletin03" class="acme.entities.galanbulletins.Galanbulletin">
 		<property name="author" value="Miguel Galan" />
-		<property name="text" value="Third!" />
+		<property name="description" value="Third!" />
+		<property name="text" value="Third Bulletin!" />
 		<property name="moment" value="2019/08/09 17:00" />
 	</bean>
 	

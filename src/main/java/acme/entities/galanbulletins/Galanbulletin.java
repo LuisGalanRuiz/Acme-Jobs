@@ -16,12 +16,15 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class GalanBulletin extends DomainEntity {
+public class Galanbulletin extends DomainEntity {
 
 	private static final long	serialVersionUID	= 1L;
 
 	@NotBlank
 	private String				author;
+
+	@NotBlank
+	private String				description;
 
 	@NotBlank
 	private String				text;
