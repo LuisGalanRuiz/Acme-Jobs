@@ -35,6 +35,9 @@ master.menu.anonymous.jose-favourite-link = Enlace de Jose
 master.menu.anonymous.luis-favourite-link = Enlace de Luis
 master.menu.anonymous.andres-favourite-link = Enlace de Andrés
 
+master.menu.anonymous.sotobulletin.form = Crear SotoBulletin
+master.menu.anonymous.sotobulletin.list = Listar SotoBulletins
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
