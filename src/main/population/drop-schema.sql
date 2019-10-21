@@ -33,4 +33,6 @@
 
     drop table if exists `user_account`;
 
+    drop table if exists `villegasbulletin`;
+
     drop table if exists `hibernate_sequence`;

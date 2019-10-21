@@ -98,3 +98,6 @@ master.license.text = \
 	
 master.menu.anonymous.shout.list=Lista de gritos
 master.menu.anonymous.shout.form=Crear Grito
+
+master.menu.anonymous.villegasbulletin.list=Lista de boletines
+master.menu.anonymous.villegasbulletin.form=Crear boletín
