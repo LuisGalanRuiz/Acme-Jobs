@@ -98,3 +98,5 @@ master.license.text = \
 
 master.menu.anonymous.shout.list=Shout list
 master.menu.anonymous.shout.form=Create Shout
+master.menu.anonymous.gamezbulletin.form=Create GamezBulletin
+master.menu.anonymous.gamezbulletin.list=GamezBulletins List

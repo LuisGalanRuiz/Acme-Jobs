@@ -313,4 +313,22 @@ Shout
 </panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>476</x>
+      <y>378</y>
+      <w>217</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+GamezBulletin
+--
++ moment: Date(temporal(TIMESTAMP), Past)
++ author: String {NotBlank}
++ text: String {NotBlank}
++ sex: String {NotBlank}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
