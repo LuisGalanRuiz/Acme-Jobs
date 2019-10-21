@@ -38,21 +38,21 @@
 	</bean>
 <!-- SotoBulletin -->
 
-	<bean id="sotobulletin1" class="acme.entities.sotobulletins.SotoBulletin">
+	<bean id="sotobulletin1" class="acme.entities.sotobulletins.Sotobulletin">
 		<property name="author" value="Pedro Martinez" />
 		<property name="location" value="Rusia" />
 		<property name="text" value="First Bulletin!" />
 		<property name="moment" value="2019/08/09 10:00" />
 	</bean>
 
-	<bean id="sotobulletin2" class="acme.entities.sotobulletins.SotoBulletin">
+	<bean id="sotobulletin2" class="acme.entities.sotobulletins.Sotobulletin">
 		<property name="author" value="Jose Duque" />
 		<property name="location" value="Sevilla" />
 		<property name="text" value="Second Bulletin!" />
 		<property name="moment" value="2019/08/09 15:00" />
 	</bean>
 
-	<bean id="sotobulletin3" class="acme.entities.sotobulletins.SotoBulletin">
+	<bean id="sotobulletin3" class="acme.entities.sotobulletins.Sotobulletin">
 		<property name="author" value="Luis Perez" />
 		<property name="location" value="Jerez de la frontera" />
 		<property name="text" value="Third Bulletin!" />

@@ -47,7 +47,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `soto_bulletin` (
+    create table `sotobulletin` (
        `id` integer not null,
         `version` integer not null,
         `author` varchar(255),
