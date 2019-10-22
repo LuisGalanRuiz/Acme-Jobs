@@ -21,12 +21,11 @@
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.galanbulletin.list" action="/anonymous/galanbulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.galanbulletin.form" action="/anonymous/galanbulletin/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.villegasbulletin.list" action="/anonymous/villegasbulletin/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.villegasbulletin.form" action="/anonymous/villegasbulletin/create"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.shout.list" action="/anonymous/shout/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.shout.form" action="/anonymous/shout/create"/>
-			<acme:menu-separator/>			
-			<acme:menu-suboption code="master.menu.anonymous.villegasbulletin.list" action="/anonymous/villegasbulletin/list"/>
-			<acme:menu-suboption code="master.menu.anonymous.villegasbulletin.form" action="/anonymous/villegasbulletin/create"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com/"/>
 			<acme:menu-suboption code="master.menu.anonymous.carlos-favourite-link" action="https://www.informatica.us.es/"/>
