@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
+  <help_text>&lt;&lt;Entity&gt;&gt;
+VillegasBulletin
+--
++ author: String {NotBlank}
++ date: Date {Temporal(TIMESTAMP), Past}
++ title: String {NotBlank}
++ text: String {NotBlank}</help_text>
   <zoom_level>7</zoom_level>
   <element>
     <id>UMLClass</id>
@@ -300,7 +307,7 @@ has v</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>210</x>
-      <y>378</y>
+      <y>266</y>
       <w>217</w>
       <h>77</h>
     </coordinates>
@@ -329,6 +336,27 @@ GamezBulletin
 + text: String {NotBlank}
 + sex: String {NotBlank}
 </panel_attributes>
+      <x>189</x>
+      <y>385</y>
+      <x>210</x>
+      <y>350</y>
+      <w>217</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+VillegasBulletin
+--
++ author: String {NotBlank}
++ date: Date {Temporal(TIMESTAMP), Past}
++ title: String {NotBlank}
++ text: String{NotBlank}
+</panel_attributes>
+GalanBulletin
+--
++ moment: Date{temporal(TIMESTAMP), Past}
++ author: String{NotBlank}
++ description: String{NotBlank}
++ text: String{NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
