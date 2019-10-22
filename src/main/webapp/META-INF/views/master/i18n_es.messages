@@ -29,6 +29,10 @@ master.menu.sign-out = Salir
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anónimo
+master.menu.anonymous.galanbulletin.form = Crear GalanBulletin
+master.menu.anonymous.galanbulletin.list = Listar GalanBulletins
+master.menu.anonymous.shout.list=Lista de gritos
+master.menu.anonymous.shout.form=Crear Grito
 master.menu.anonymous.favourite-link = Enlace favorito
 master.menu.anonymous.carlos-favourite-link = Enlace de Carlos
 master.menu.anonymous.jose-favourite-link = Enlace de Jose
@@ -96,5 +100,4 @@ master.license.text = \
 	lenguage.  AdemÃ¡s, almacenamos un Ã­tem llamado "returnStack" en el almacenamiento \
 	local de su navegador para saber dÃ³nde tienen que ir algunos botones.
 	
-master.menu.anonymous.shout.list=Lista de gritos
-master.menu.anonymous.shout.form=Crear Grito
+
