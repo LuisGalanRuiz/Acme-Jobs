@@ -69,6 +69,16 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `villegasbulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `date` datetime(6),
+        `text` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `hibernate_sequence` (
        `next_val` bigint
     ) engine=InnoDB;

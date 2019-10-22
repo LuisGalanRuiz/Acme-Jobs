@@ -1,0 +1,11 @@
+anonymous.villegasBulletin.list.label.date=Date
+anonymous.villegasBulletin.list.label.author=Author
+anonymous.villegasBulletin.list.label.title=Title
+anonymous.villegasBulletin.list.label.text=Text
+
+anonymous.villegasBulletin.form.label.author=Author
+anonymous.villegasBulletin.form.label.title=Title
+anonymous.villegasBulletin.form.label.text=Text
+
+anonymous.villegasBulletin.form.button.create=Submit
+anonymous.villegasBulletin.form.button.return=Return
