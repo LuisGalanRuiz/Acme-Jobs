@@ -21,6 +21,8 @@
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.galanbulletin.list" action="/anonymous/galanbulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.galanbulletin.form" action="/anonymous/galanbulletin/create"/>
+      <acme:menu-suboption code="master.menu.anonymous.gamezbulletin.list" action="/anonymous/gamezbulletin/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.gamezbulletin.form" action="/anonymous/gamezbulletin/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.villegasbulletin.list" action="/anonymous/villegasbulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.villegasbulletin.form" action="/anonymous/villegasbulletin/create"/>
 			<acme:menu-separator/>

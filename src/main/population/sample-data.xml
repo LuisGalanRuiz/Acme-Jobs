@@ -37,6 +37,28 @@
 		<property name="moment" value="2019/08/07 10:00" />
 	</bean>
 	
+	<!-- GamezBulletins -->
+
+	<bean id="gamezbulletin01" class="acme.entities.gamezbulletins.Gamezbulletin">
+		<property name="author" value="Carlos" />
+		<property name="age" value="21" />
+		<property name="text" value="Text 01" />
+		<property name="moment" value="2019/07/02 12:00" />
+	</bean>
+
+	<bean id="gamezbulletin02" class="acme.entities.gamezbulletins.Gamezbulletin">
+		<property name="author" value="Carlos Gamez" />
+		<property name="age" value="30" />
+		<property name="text" value="Text 02" />
+		<property name="moment" value="2018/02/12 12:00" />
+	</bean>
+
+	<bean id="gamezbulletin03" class="acme.entities.gamezbulletins.Gamezbulletin">
+		<property name="author" value="Carlos Gamez Ramirez" />
+		<property name="age" value="16" />
+		<property name="text" value="Text 03" />
+		<property name="moment" value="2017/01/06 12:00" />
+    
   	<!-- GalanBulletins -->
 	
 	<bean id="galanbulletin01" class="acme.entities.galanbulletins.Galanbulletin">
