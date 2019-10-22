@@ -55,9 +55,9 @@ public class AnonymousSotoBulletinCreateService implements AbstractCreateService
 
 		moment = new Date(System.currentTimeMillis() - 1);
 		result = new Sotobulletin();
-		result.setAuthor("Galan");
-		result.setLocation("Location");
-		result.setText("SotoBulletin");
+		result.setAuthor("Your name");
+		result.setLocation("Where are you from?");
+		result.setText("Write here your SotoBulletin");
 		result.setMoment(moment);
 
 		return result;
