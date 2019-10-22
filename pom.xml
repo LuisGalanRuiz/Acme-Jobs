@@ -23,6 +23,7 @@
 	<packaging>war</packaging>
 
 	<name>acme-jobs</name>
+  
 	<description>This is the Acme Jobs Project for the students of Design &amp; Testing.</description>
 
 	<parent>
