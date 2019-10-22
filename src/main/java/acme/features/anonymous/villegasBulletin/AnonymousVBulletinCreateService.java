@@ -55,9 +55,9 @@ public class AnonymousVBulletinCreateService implements AbstractCreateService<An
 
 		date = new Date(System.currentTimeMillis() - 1);
 		result = new Villegasbulletin();
-		result.setAuthor("");
-		result.setText("");
-		result.setTitle("");
+		result.setAuthor("Villegas");
+		result.setText("This is my first Bulletin");
+		result.setTitle("First Bulletin!");
 		result.setDate(date);
 
 		return result;
