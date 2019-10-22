@@ -9,6 +9,7 @@ import javax.persistence.TemporalType;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
+import javax.validation.constraints.Positive;
 
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
@@ -25,6 +26,7 @@ public class Gamezbulletin extends DomainEntity {
 	private String				author;
 
 	@NotNull
+	@Positive
 	private Integer				age;
 
 	@NotBlank

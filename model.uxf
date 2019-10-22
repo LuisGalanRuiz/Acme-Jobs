@@ -345,7 +345,7 @@ GamezBulletin
 + moment: Date{temporal(TIMESTAMP, Past}
 + author: String{NotBlank}
 + text: String{NotBlank}
-+ sex: String{NotBlank}</panel_attributes>
++ age: Integer{NotNull, Positive}</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
