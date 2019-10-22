@@ -23,7 +23,8 @@
 	<packaging>war</packaging>
 
 	<name>acme-jobs</name>
-	<description>This is the Acme Jobs project for the students of Design &amp; Testing.</description>
+  
+	<description>This is the Acme Jobs Project for the students of Design &amp; Testing.</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
