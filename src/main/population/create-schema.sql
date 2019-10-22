@@ -29,6 +29,26 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `galanbulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `description` varchar(255),
+        `moment` datetime(6),
+        `text` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `gamezbulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `age` integer,
+        `author` varchar(255),
+        `moment` datetime(6),
+        `text` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `provider` (
        `id` integer not null,
         `version` integer not null,
@@ -66,6 +86,16 @@
         `identity_surname` varchar(255),
         `password` varchar(255),
         `username` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `villegasbulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `date` datetime(6),
+        `text` varchar(255),
+        `title` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
