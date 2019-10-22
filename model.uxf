@@ -323,6 +323,8 @@ Shout
   <element>
     <id>UMLClass</id>
     <coordinates>
+      <x>210</x>
+      <y>273</y>
       <x>476</x>
       <y>378</y>
       <w>217</w>
@@ -344,6 +346,11 @@ GamezBulletin
       <h>84</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
+SotoBulletin
+--
++ moment: Date{temporal(TIMESTAMP), Past}
++ author: String{NotBlank}
++ location: String{NotBlank}
 VillegasBulletin
 --
 + author: String {NotBlank}

@@ -1,0 +1,21 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+anonymous.sotobulletin.list.label.moment=Fecha
+anonymous.sotobulletin.list.label.author=Autor
+anonymous.sotobulletin.list.label.location=Localización
+anonymous.sotobulletin.list.label.text=Texto
+
+anonymous.sotobulletin.form.label.author=Autor
+anonymous.sotobulletin.form.label.location=Localización
+anonymous.sotobulletin.form.label.text=Texto
+
+anonymous.sotobulletin.form.button.create=Crea tu SotoBulletin
+anonymous.sotobulletin.form.button.return=Volver 
