@@ -27,9 +27,9 @@
 
     drop table if exists `consumer`;
 
-    drop table if exists `gamezbulletin`;
-
     drop table if exists `galanbulletin`;
+
+    drop table if exists `gamezbulletin`;
 
     drop table if exists `provider`;
 
